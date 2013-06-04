@@ -1,0 +1,16 @@
+{
+    "name"         : "micro-spectrum-plugin",
+    "description"  : "plugin for adding spectrum support to micro",
+    "main"         : "lib/micro-spectrum-plugin",
+    "version"      : "0.1.0",
+    "author"       : "Thomas Yandell <tom.deletethis@yandell.me.uk> (http://uart0.yandell.me.uk/)",
+    "directories"  : { "lib" : "./lib" },
+    "dependencies" : {
+        "spectrum" : ">= 0.4.1"
+    },
+    "repository" : {
+        "type" : "git",
+        "url"  : "http://github.com/tomyan/micro-spectrum-plugin.js.git"
+    },
+    "homepage" : "http://github.com/tomyan/micro-spectrum-plugin.js"
+}
